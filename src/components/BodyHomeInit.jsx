@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 function BodyHomeInit() {
   return (
-    <div className="w-full flex justify-between mt-56 mb-20 px-40">
-      <div className="w-1/2 max-w-[700px] space-y-5">
+    <div id='bodyHomeInit' className="w-full flex justify-between mt-56 mb-20 px-40">
+      <div id='contentTextBodyInit' className="w-1/2 max-w-[700px] space-y-5">
         <h1 className="text-8xl font-bold text-zinc-300">
           Bem-vindo ao Millenium
         </h1>
@@ -23,6 +23,7 @@ function BodyHomeInit() {
       </div>
 
       <img
+      id='contentImageBodyInit'
         src={ImagemHome}
         alt="Imagem aleatoria"
         className="w-1/2 max-w-[500px]"
