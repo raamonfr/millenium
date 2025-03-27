@@ -11,8 +11,7 @@ function BodyHomeInit() {
         </h1>
 
         <p className="font-light text-zinc-400">
-          Uma plataforma segura, eficiente e escalável, desenvolvida com
-          tecnologia de ponta para garantir a melhor experiência. 🚀
+          Impulsione seu negócio com tecnologia inovadora! Nossa plataforma segura, eficiente e escalável foi desenvolvida com o que há de mais avançado para oferecer a melhor experiência. 🚀
         </p>
 
         <p>Ainda não faz parte dessa equipe?</p>

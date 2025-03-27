@@ -4,7 +4,7 @@ import random from '../assets/random.jpg'
 function BodyHomeMid() {
     return (
         <div id='sobreNos' className="w-full px-40 py-32 space-y-72 bg-white text-zinc-900">
-            <div id='nossaMissao' className='flex justify-center items-center gap-14 transform translate-x-[-700px] opacity-0'>
+            <div id='nossaMissao' className='flex justify-center items-center gap-14'>
                 <div className='max-w-[600px] space-y-6'>
                     <h1 className='font-bold text-center'>Nossa Missão</h1>
                     <p className='text-zinc-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, cupiditate atque, voluptate dolores, amet iure tempore culpa similique porro omnis quis et magnam quasi reiciendis? Aut earum ab fugit numquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas neque iste, debitis reiciendis ex sequi alias, mollitia, dolorem suscipit magni odit minima facilis. Eveniet consectetur nam nostrum iusto necessitatibus voluptate!</p>
