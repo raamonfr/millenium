@@ -8,6 +8,7 @@ function Header() {
             <a href="/" className="text-white cursor-pointer text-3xl font-extrabold select-none hover:text-white">MILLE<span className="text-blue-500">NIUM</span></a>
 
             <nav className="flex items-center gap-10">
+                <a href="#nossosServicos" className="text-white transition duration-500 ease-in-out hover:text-zinc-500">Nossos Serviços</a>
                 <a href="#sobreNos" className="text-white transition duration-500 ease-in-out hover:text-zinc-500">Sobre nós</a>
                 <a href="#nossoContato" className="text-white transition duration-500 ease-in-out hover:text-zinc-500">Contato</a>
                 <Link to="/login" className="text-blue-500 transition duration-500 ease-in-out hover:text-blue-800">Login</Link>

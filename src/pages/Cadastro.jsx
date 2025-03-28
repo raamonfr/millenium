@@ -31,7 +31,7 @@ function Cadastro() {
     <div className="flex w-screen bg-zinc-900">
       <Link to="/" className="absolute top-3 left-10 mt-10 flex gap-4 justify-center font-bold border-2 border-transparent bg-blue-500 text-white p-3 rounded-lg transition duration-500 ease-in-out hover:border-current hover:text-white"> <ArrowLeftIcon/> Página Inicial</Link>
 
-      <img className="w-1/2 rounded-tr-3xl rounded-br-3xl shadow-2xl" src={imagemComplementar} alt="Imagem Complementar" />
+      <div className="w-1/2 rounded-tr-3xl rounded-br-3xl shadow-2xl bg-cover bg-center" style={{ backgroundImage: `url(${imagemComplementar})` }}></div>
 
       <div className="w-1/2 flex flex-col items-center justify-center min-h-screen text-white">
         <h2 className="text-3xl font-bold p-6">Cadastro de Empresas</h2>

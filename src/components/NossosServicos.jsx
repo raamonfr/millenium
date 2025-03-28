@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 function NossosServicos() {
     return (
-        <div className="bg-white text-black px-40 py-20">
+        <div id="nossosServicos" className="bg-white text-black px-40 py-32">
             <h1 className="text-center mb-20 font-bold">Nossos Serviços</h1>
 
             <section id="cards-grid" className="flex gap-8 justify-center">

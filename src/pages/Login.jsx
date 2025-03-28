@@ -69,7 +69,7 @@ function Login() {
         </form>
       </div>
 
-      <img className="w-1/2 rounded-tl-3xl rounded-bl-3xl shadow-2xl" src={imagemComplementar2} alt="Imagem Complementar" />
+      <div className="w-1/2 rounded-tl-3xl rounded-bl-3xl shadow-2xl bg-cover bg-center" style={{ backgroundImage: `url(${imagemComplementar2})` }}></div>
     </div>
   );
 }
