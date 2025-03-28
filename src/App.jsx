@@ -9,7 +9,7 @@ import BodyHomeInit from './components/BodyHomeInit'
 import BodyHomeMid from './components/BodyHomeMid'
 import FooterHome from './components/FooterHome'
 import NossoContato from './components/NossoContato'
-import NossosServicos from './components/NossosServicoes'
+import NossosServicos from './components/NossosServicos'
 
 function App() {
   // useLayoutEffect(() => {
