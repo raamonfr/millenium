@@ -38,9 +38,9 @@ function App() {
     <div className="w-screen bg-zinc-900 flex flex-col justify-between">
       <Header />
 
-      {/* <BodyHomeInit />
+      <BodyHomeInit />
 
-      <NossosServicos />
+      {/* <NossosServicos />
 
       <BodyHomeMid />
 
