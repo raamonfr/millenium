@@ -10,6 +10,7 @@ import BodyHomeMid from './components/BodyHomeMid'
 import FooterHome from './components/FooterHome'
 import NossoContato from './components/NossoContato'
 import NossosServicos from './components/NossosServicos'
+import Sidebar from './components/Sidebar'
 
 function App() {
   // useLayoutEffect(() => {
@@ -37,7 +38,7 @@ function App() {
     <div className="w-screen bg-zinc-900 flex flex-col justify-between">
       <Header />
 
-      <BodyHomeInit />
+      {/* <BodyHomeInit />
 
       <NossosServicos />
 
@@ -45,7 +46,7 @@ function App() {
 
       <NossoContato />
 
-      <FooterHome />
+      <FooterHome /> */}
     </div>
   )
 }
