@@ -8,7 +8,7 @@ export default function MeusProdutos() {
         <div className="flex flex-col gap-6 p-6">
             <HeaderProdutos />
 
-            <div className="flex justify-between bg-[#F9FAFB] border-gray-200 border rounded-lg p-4 shadow-sm">
+            <div className="flex justify-between bg-white border-gray-200 border rounded-lg p-4 shadow-sm">
                 <BuscaProdutos />
                 <FiltroPorTipo />
             </div>

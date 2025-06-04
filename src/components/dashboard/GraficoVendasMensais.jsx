@@ -11,7 +11,7 @@ const data = [
 
 export default function GraficoVendasMensais() {
   return (
-    <div className="bg-white p-4 rounded-lg shadow w-full h-72">
+    <div className="bg-white p-4 rounded-lg shadow w-full h-80">
       <h2 className="text-lg text-zinc-700 font-semibold mb-4">Vendas Mensais</h2>
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={data}>

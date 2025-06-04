@@ -98,6 +98,7 @@ export default function ModalAdicionarProduto({ aberto, onFechar, onSalvar }) {
               <option value="alimentos">Alimentos</option>
               <option value="roupas">Roupas</option>
               <option value="eletronicos">Eletrônicos</option>
+              <option value="limpeza">Limpeza</option>
             </select>
           </div>
 
