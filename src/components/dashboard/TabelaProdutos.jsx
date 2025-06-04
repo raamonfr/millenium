@@ -70,7 +70,7 @@ export default function TabelaProdutos() {
                         </thead>
                         <tbody>
                             {produtos.map((produto) => (
-                                <tr key={produto.id} className="bg-white border text-center text-zinc-700 border-gray-200 rounded-md shadow-sm">
+                                <tr key={produto.id} className="bg- border text-center text-zinc-700 border-gray-200 rounded-md shadow-sm">
                                     <td className="px-4 py-3">{produto.nome}</td>
                                     <td className="px-4 py-3">{produto.categoria}</td>
                                     <td className="px-4 py-3">R$ {Number(produto.preco).toFixed(2)}</td>
