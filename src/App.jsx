@@ -91,7 +91,7 @@ function App() {
           </motion.p>
 
           <motion.div variants={itemVariants}>
-            <BotaoAzul rota="/cadastro" textoBotao="Cadastre-se" />
+            <BotaoAzul rota="/login" textoBotao="Entrar" />
           </motion.div>
         </div>
 

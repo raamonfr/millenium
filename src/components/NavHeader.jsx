@@ -111,17 +111,9 @@ function NavHeader() {
                 <motion.div variants={navItemVariants}>
                     <Link 
                         to="/login" 
-                        className="text-blue-400 transition hover:text-blue-300 hover:scale-105"
+                        className="flex gap-2 items-center border-2 border-transparent bg-gradient-to-r from-blue-600 to-blue-500 text-white px-4 py-2 rounded-lg transition-all hover:border-blue-300 hover:text-white hover:shadow-lg hover:shadow-blue-500/20 hover:scale-105"
                     >
-                        Login
-                    </Link>
-                </motion.div>
-                <motion.div variants={navItemVariants}>
-                    <Link 
-                        to="/cadastro" 
-                        className="flex gap-2 items-center border-2 border-transparent bg-gradient-to-r from-blue-600 to-blue-500 text-white px-4 py-2 rounded-lg transition-all hover:border-blue-300 hover:shadow-lg hover:shadow-blue-500/20 hover:scale-105"
-                    >
-                        <UserPlusIcon size={18} /> Cadastre-se
+                        <UserPlusIcon size={18} /> Entrar
                     </Link>
                 </motion.div>
             </motion.nav>

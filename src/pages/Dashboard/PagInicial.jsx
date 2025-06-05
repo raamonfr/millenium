@@ -1,4 +1,3 @@
-import Header from '../../components/dashboard/Header'
 import CardsResumo from '../../components/dashboard/CardsResumo'
 import GraficoVendasMensais from '../../components/dashboard/GraficoVendasMensais'
 import GraficoProdutosPorCategoria from '../../components/dashboard/GraficoProdutosPorCategorias'

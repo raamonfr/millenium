@@ -1,28 +1,23 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-
 import App from './App.jsx';
-import Cadastro from './pages/CadastroEmpresa.jsx';
-import Login from './pages/LoginEmpresa.jsx';
-import Estoque from './pages/Estoque.jsx';
 import ErrorPage from './pages/ErroPage.jsx';
 import PrivateRoute from './components/PrivateRoute.jsx'; // 🛡️ Importa o PrivateRoute
-
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import CadastroONG from './pages/CadastroONG.jsx';
-import TelaEscolhaLogin from './pages/TelaEscolhaLogin.jsx';
 import TelaEscolhaCadastro from './pages/TelaEscolhaCadastro.jsx';
 import CadastroEmpresa from './pages/CadastroEmpresa.jsx';
-import LoginEmpresa from './pages/LoginEmpresa.jsx';
-import LoginOng from './pages/LoginOng.jsx';
+import LoginPage from "./pages/cadastro/LoginPage.jsx"
+import CadastroPage from "./pages/cadastro/CadastroPage.jsx"
 import Vendas from './pages/Vendas.jsx';
 import Doacoes from './pages/Doacoes.jsx';
 import DoacoesOng from "./pages/DoacoesOng.jsx";
-import Compras from "./pages/Compras"; // ✅ certo
+import Compras from "./pages/Compras";
 import MeusProdutos from './pages/Dashboard/MeusProdutos.jsx';
 import DashboardLayout from './layouts/DashboardLayout.jsx'
 import PagiInicial from './pages/Dashboard/PagInicial.jsx'
+import LoginLayout from './layouts/LoginLayout.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,28 +26,19 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
   {
-    path: "/cadastro",
-    element: <TelaEscolhaCadastro />,
-  },
-  {
     path: "/login",
-    element: <TelaEscolhaLogin />
-  },
-  {
-    path: "/cadastroOng",
-    element: <CadastroONG />
-  },
-  {
-    path: "/cadastroEmpresa",
-    element: <CadastroEmpresa />
-  },
-  {
-    path: "/loginEmpresa",
-    element: <LoginEmpresa />
-  },
-  {
-    path: "loginOng",
-    element: <LoginOng />
+    element: (<LoginLayout />
+    ),
+    children: [
+      {
+        index: true,
+        element: <LoginPage />
+      },
+      {
+        path: "cadastro",
+        element: <CadastroPage />
+      }
+    ]
   },
   {
     path: "/vendas",
@@ -86,7 +72,6 @@ const router = createBrowserRouter([
         path: "doacoes",
         element: <Doacoes />
       }
-      // você pode adicionar mais páginas do dashboard aqui
     ],
   },
 ]);
